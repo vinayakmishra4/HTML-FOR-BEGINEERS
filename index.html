@@ -2,76 +2,137 @@
 <html lang="en">
 
 <head>
-
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> My profile protoflo </title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <title>My Portfolio</title>
+
+    <!-- Font Awesome for social media icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <style>
 
-        header
-        {
+        * {
+
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        body {
+
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            font-family: Georgia, serif;
+
+        }
+
+        /* Header */
+        header {
+
             text-align: center;
+            padding: 25px 0;
+
         }
 
-        footer a 
-        {
+        header h1 {
+
             font-size: 30px;
+
+        }
+
+        /* Main content */
+        main {
+
+            flex: 1;
+
+        }
+
+        /* Footer */
+        footer {
+
+            text-align: center;
+            border-top: 1px solid #555;
+            padding: 15px 0 25px;
+
+        }
+
+        footer p {
+
+            margin-bottom: 10px;
+
+        }
+
+        .social-icons {
+
+            margin: 10px 0 15px;
+
+        }
+
+        .social-icons a {
+
+            margin: 0 6px;
             text-decoration: none;
-            bottom: 0;
+            color: #3515a5;
+            font-size: 18px;
+
         }
 
-        footer a:hover 
-        {
-            opacity: 0.7;
-        }
+        .social-icons a:hover {
 
+            color: #000;
+
+        }
     </style>
 
 </head>
 
 <body>
 
+    <!-- Header -->
     <header>
+
         <h1>Vinayak Mishra</h1>
+
     </header>
 
+    <!-- Main Content -->
     <main>
-
+        <!-- Your portfolio content goes here -->
     </main>
 
+    <!-- Footer -->
     <footer>
-        <hr>
 
         <p>Connect with me on social media:</p>
 
-        <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+        <a href="https://www.facebook.com/vinayak.mishra.98892" target="_blank">
             <i class="fa-brands fa-facebook"></i>
         </a>
 
         &nbsp;&nbsp;
-
-        <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+        
+        <a href="https://www.instagram.com/vinayak_mishra4/" target="_blank">
             <i class="fa-brands fa-instagram"></i>
         </a>
-
+        
         &nbsp;&nbsp;
-
-        <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn">
+        
+        <a href="https://www.linkedin.com/in/vinayak-mishra-93003b1b3/" target="_blank">
             <i class="fa-brands fa-linkedin"></i>
         </a>
-
+        
         &nbsp;&nbsp;
-
-        <a href="https://github.com/" target="_blank" aria-label="GitHub">
+        
+        <a href="https://github.com/vinayakmishra4" target="_blank">
             <i class="fa-brands fa-github"></i>
         </a>
 
-        <p>
-            © 2026 Vinayak Mishra. All rights reserved.
-        </p>
-        
+        <p>© 2026 Vinayak Mishra. All rights reserved.</p>
+
     </footer>
 
 </body>
