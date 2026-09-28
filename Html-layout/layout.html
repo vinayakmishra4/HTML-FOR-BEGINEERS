@@ -3,9 +3,330 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Zomato Style Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            height: 450px;
+            background: linear-gradient(
+                rgba(0, 0, 0, 0.45),
+                rgba(0, 0, 0, 0.45)
+            ),
+            url("https://images.unsplash.com/photo-1517248135467-4c7edcad34c4")
+            center/cover;
+
+            color: white;
+        }
+
+        nav {
+            width: 90%;
+            margin: auto;
+            padding: 25px 0;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+
+        nav ul li {
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .hero {
+            text-align: center;
+            margin-top: 90px;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            font-weight: bold;
+        }
+
+        .hero p {
+            font-size: 22px;
+            margin: 15px 0 30px;
+        }
+
+        .search-box {
+            width: 650px;
+            max-width: 90%;
+            margin: auto;
+
+            background: white;
+            border-radius: 8px;
+            padding: 15px;
+
+            display: flex;
+            align-items: center;
+        }
+
+        .search-box input {
+            border: none;
+            outline: none;
+            width: 100%;
+            font-size: 16px;
+            padding: 5px;
+        }
+
+        /* Categories */
+        .container {
+            width: 90%;
+            max-width: 1100px;
+            margin: 40px auto;
+        }
+
+        .container h2 {
+            font-size: 30px;
+            margin-bottom: 25px;
+        }
+
+        .categories {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .category {
+            background: white;
+            width: 200px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .category:hover {
+            transform: translateY(-5px);
+        }
+
+        .category img {
+            width: 100%;
+            height: 130px;
+            object-fit: cover;
+        }
+
+        .category h3 {
+            padding: 15px;
+            font-size: 18px;
+        }
+
+        /* Restaurants */
+        .restaurants {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+        }
+
+        .restaurant {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+        }
+
+        .restaurant:hover {
+            transform: translateY(-5px);
+        }
+
+        .restaurant img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .restaurant-info {
+            padding: 15px;
+        }
+
+        .restaurant-info h3 {
+            margin-bottom: 8px;
+        }
+
+        .rating {
+            color: green;
+            font-weight: bold;
+        }
+
+        .restaurant-info p {
+            color: #777;
+            margin-top: 8px;
+        }
+
+        /* Footer */
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            margin-top: 50px;
+        }
+
+        /* Responsive */
+        @media (max-width: 800px) {
+            .restaurants {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .hero h1 {
+                font-size: 40px;
+            }
+        }
+
+        @media (max-width: 550px) {
+            nav ul {
+                display: none;
+            }
+
+            .restaurants {
+                grid-template-columns: 1fr;
+            }
+
+            .categories {
+                justify-content: center;
+            }
+
+            .category {
+                width: 100%;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">zomato</div>
+
+            <ul>
+                <li>Home</li>
+                <li>Log in</li>
+                <li>Sign up</li>
+            </ul>
+        </nav>
+
+        <div class="hero">
+            <h1>zomato</h1>
+            <p>Discover the best food & drinks in your city</p>
+
+            <div class="search-box">
+                <input
+                    type="text"
+                    placeholder="Search for restaurant, cuisine or dish..."
+                >
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Food Categories -->
+    <section class="container">
+        <h2>Explore Food</h2>
+
+        <div class="categories">
+
+            <div class="category">
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38">
+                <h3>Pizza</h3>
+            </div>
+
+            <div class="category">
+                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd">
+                <h3>Burgers</h3>
+            </div>
+
+            <div class="category">
+                <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950">
+                <h3>Indian Food</h3>
+            </div>
+
+            <div class="category">
+                <img src="https://images.unsplash.com/photo-1559314809-0d155014e29e">
+                <h3>Desserts</h3>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Restaurants -->
+    <section class="container">
+        <h2>Popular Restaurants</h2>
+
+        <div class="restaurants">
+
+            <div class="restaurant">
+                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4">
+
+                <div class="restaurant-info">
+                    <h3>Food Palace</h3>
+                    <span class="rating">4.5 ★</span>
+                    <p>North Indian, Chinese</p>
+                    <p>₹300 for two</p>
+                </div>
+            </div>
+
+
+            <div class="restaurant">
+                <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9">
+
+                <div class="restaurant-info">
+                    <h3>The Food Corner</h3>
+                    <span class="rating">4.3 ★</span>
+                    <p>Pizza, Burger, Fast Food</p>
+                    <p>₹400 for two</p>
+                </div>
+            </div>
+
+
+            <div class="restaurant">
+                <img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f">
+
+                <div class="restaurant-info">
+                    <h3>Spice Kitchen</h3>
+                    <span class="rating">4.6 ★</span>
+                    <p>Indian, Mughlai</p>
+                    <p>₹500 for two</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <h2>zomato</h2>
+        <p>© 2026 Zomato Style Website | Made with HTML & CSS</p>
+    </footer>
+
 </body>
 </html>

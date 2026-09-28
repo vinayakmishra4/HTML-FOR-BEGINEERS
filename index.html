@@ -2,139 +2,380 @@
 <html lang="en">
 
 <head>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>My Portfolio</title>
-
-    <!-- Font Awesome for social media icons -->
+    <title>Vinayak Mishra | Portfolio</title>
+    <!-- Font Awesome for Social Media Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
+    
     <style>
-
-        * {
-
+        /* =========================
+        RESET
+        ========================= */
+        * 
+        {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-
         }
 
-        body {
+        /* =========================
+        BODY
+        ========================= */
+        body
+        {
 
             min-height: 100vh;
             display: flex;
             flex-direction: column;
+            align-items: center;
             font-family: Georgia, serif;
-
+            color: #222;
+            background-image:
+                linear-gradient(rgba(255, 255, 255, 0.75),
+                    rgba(255, 255, 255, 0.75)),
+                url("top-view-blue-decorative-frame.jpg");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        
         }
 
-        /* Header */
-        header {
+        /* =========================
+        HEADER
+        ========================= */
 
+        header 
+        {
+
+            width: 100%;
             text-align: center;
-            padding: 25px 0;
-
+            padding: 40px 20px 25px;
+        
         }
 
-        header h1 {
+        header h1
+        {
 
-            font-size: 30px;
-
-        }
-
-        /* Main content */
-        main {
-
-            flex: 1;
-
-        }
-
-        /* Footer */
-        footer {
-
-            text-align: center;
-            border-top: 1px solid #555;
-            padding: 15px 0 25px;
-
-        }
-
-        footer p {
-
-            margin-bottom: 10px;
-
-        }
-
-        .social-icons {
-
-            margin: 10px 0 15px;
-
-        }
-
-        .social-icons a {
-
-            margin: 0 6px;
-            text-decoration: none;
+            font-size: 40px;
             color: #3515a5;
-            font-size: 18px;
+            margin-bottom: 8px;
+        
+        }
+
+        header p
+        {
+
+            font-size: 20px;
+            color: #444;
+        
+        }
+
+        /* =========================
+        MAIN CONTAINER
+        ========================= */
+
+        main
+        {
+
+            width: 90%;
+            max-width: 650px;
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 35px;
+            border-radius: 15px;
+            box-shadow:
+                0 8px 25px rgba(0, 0, 0, 0.18);
+            text-align: center;
 
         }
 
-        .social-icons a:hover {
+        /* =========================
+        SECTIONS
+        ========================= */
+
+        section
+        {
+
+            margin-bottom: 25px;
+            padding-bottom: 25px;
+            border-bottom: 1px solid #ddd;
+        
+        }
+
+        section:last-child 
+        {
+
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        
+        }
+
+        section h2 {
+            font-size: 25px;
+            color: #3515a5;
+            margin-bottom: 12px;
+        }
+
+        section p {
+            font-size: 17px;
+            line-height: 1.7;
+            color: #444;
+        }
+
+        /* =========================
+       SKILLS
+    ========================= */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .skill {
+            display: inline-block;
+            padding: 9px 17px;
+            background-color: #3515a5;
+            color: white;
+            border-radius: 25px;
+            font-size: 15px;
+            transition: 0.3s;
+        }
+
+        .skill:hover {
+            transform: translateY(-3px);
+            background-color: #000;
+        }
+
+        /* =========================
+        FOOTER
+        ========================= */
+        
+        footer
+        {
+
+            width: 100%;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: auto;
+        
+        }
+
+        footer p 
+        {
+
+            margin-bottom: 12px;
+            font-size: 16px;
+        
+        }
+
+        /* =========================
+        SOCIAL MEDIA
+        ========================= */
+        .social-icons 
+        {
+
+            margin: 15px 0 20px;
+        
+        }
+
+        .social-icons a 
+        {
+
+            display: inline-block;
+            margin: 0 9px;
+            color: #3515a5;
+            font-size: 25px;
+            text-decoration: none;
+            transition: 0.3s;
+
+        }
+
+        .social-icons a:hover 
+        {
 
             color: #000;
-
+            transform: translateY(-4px);
+        
         }
-    </style>
 
+        /* =========================
+        MOBILE RESPONSIVE
+        ========================= */
+
+        @media (max-width: 600px) 
+        {
+            header 
+            {
+
+                padding-top: 30px;
+            
+            }
+
+            header h1
+            {
+
+                font-size: 30px;
+            
+            }
+
+            header p 
+            {
+
+                font-size: 17px;
+            
+            }
+
+            main 
+            {
+
+                width: 92%;
+                padding: 25px 20px;
+            
+            }
+
+            section h2 
+            {
+
+                font-size: 22px;
+            
+            }
+
+            section p 
+            {
+
+                font-size: 16px;
+            
+            }
+
+            .skill 
+            {
+
+                font-size: 14px;
+                padding: 8px 13px;
+            
+            }
+
+            .social-icons a 
+            {
+
+                font-size: 22px;
+                margin: 0 7px;
+            
+            }
+        }
+
+    </style>
 </head>
 
 <body>
 
-    <!-- Header -->
+    <!-- =========================
+     HEADER
+    ========================== -->
+
     <header>
 
         <h1>Vinayak Mishra</h1>
-
+        <p>AI/ML Engineer</p>
+    
     </header>
 
-    <!-- Main Content -->
+    <!-- =========================
+     MAIN CONTENT
+    ========================== -->
+
     <main>
-        <!-- Your portfolio content goes here -->
+
+        <!-- ABOUT ME -->
+        <section>
+
+            <h2>About Me</h2>
+            <p>
+                My name is Vinayak Mishra.
+                I am an AI/ML Engineer interested in
+                Artificial Intelligence, Machine Learning,
+                and modern technology.
+            </p>
+    
+        </section>
+
+        <!-- TECH STACK -->
+
+        <section>
+
+            <h2>Tech Stack</h2>
+            <div class="skills">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">Python</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">Machine Learning</span>
+            </div>
+
+        </section>
+
+        <!-- LIBRARIES -->
+
+        <section>
+
+            <h2>Libraries</h2>
+            <div class="skills">
+                <span class="skill">Pandas</span>
+                <span class="skill">NumPy</span>
+                <span class="skill">Matplotlib</span>
+                <span class="skill">Scikit-learn</span>
+            </div>
+
+        </section>
+
     </main>
 
-    <!-- Footer -->
+    <!-- =========================
+     FOOTER
+    ========================== -->
+
     <footer>
 
-        <p>Connect with me on social media:</p>
+        <p>
+            Connect with me on social media:
+        </p>
 
-        <a href="https://www.facebook.com/vinayak.mishra.98892" target="_blank">
-            <i class="fa-brands fa-facebook"></i>
-        </a>
+        <div class="social-icons">
 
-        &nbsp;&nbsp;
-        
-        <a href="https://www.instagram.com/vinayak_mishra4/" target="_blank">
-            <i class="fa-brands fa-instagram"></i>
-        </a>
-        
-        &nbsp;&nbsp;
-        
-        <a href="https://www.linkedin.com/in/vinayak-mishra-93003b1b3/" target="_blank">
-            <i class="fa-brands fa-linkedin"></i>
-        </a>
-        
-        &nbsp;&nbsp;
-        
-        <a href="https://github.com/vinayakmishra4" target="_blank">
-            <i class="fa-brands fa-github"></i>
-        </a>
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/vinayak.mishra.98892" target="_blank" rel="noopener noreferrer"
+                aria-label="Facebook">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
 
-        <p>© 2026 Vinayak Mishra. All rights reserved.</p>
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/vinayak_mishra4/" target="_blank" rel="noopener noreferrer"
+                aria-label="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <!-- LinkedIn -->
+            <a href="https://www.linkedin.com/in/vinayak-mishra-93003b1b3/" target="_blank" rel="noopener noreferrer"
+                aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <!-- GitHub -->
+            <a href="https://github.com/vinayakmishra4" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+
+        </div>
+
+        <p>
+            © 2026 Vinayak Mishra. All rights reserved.
+        </p>
 
     </footer>
-
+    
 </body>
 
 </html>
