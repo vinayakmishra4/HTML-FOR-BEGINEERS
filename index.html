@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,17 +10,17 @@
     <title>Vinayak Mishra | Portfolio</title>
 
     <!-- Font Awesome for Social Media Icons -->
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <style>
-
+         
         /* =========================
         RESET
         ========================= */
 
         *
         {
+
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -30,7 +31,7 @@
         BODY
         ========================= */
 
-        body 
+        body
         {
 
             min-height: 100vh;
@@ -40,10 +41,8 @@
             font-family: Georgia, serif;
             color: #222;
             background-image:
-                linear-gradient(
-                    rgba(255, 255, 255, 0.75),
-                    rgba(255, 255, 255, 0.75)
-                ),
+                linear-gradient(rgba(255, 255, 255, 0.75),
+                    rgba(255, 255, 255, 0.75)),
                 url("top-view-blue-decorative-frame.jpg");
             background-size: cover;
             background-position: center;
@@ -56,7 +55,7 @@
         HEADER
         ========================= */
 
-        header
+        header 
         {
 
             width: 100%;
@@ -65,13 +64,13 @@
 
         }
 
-        header h1
+        header h1 
         {
 
             font-size: 40px;
             color: #3515a5;
             margin-bottom: 8px;
-        
+
         }
 
         header p
@@ -79,7 +78,7 @@
 
             font-size: 20px;
             color: #444;
-        
+
         }
 
 
@@ -87,7 +86,7 @@
         MAIN CONTAINER
         ========================= */
 
-        main 
+        main
         {
 
             width: 90%;
@@ -99,7 +98,7 @@
                 0 8px 25px rgba(0, 0, 0, 0.18);
 
             text-align: center;
-        
+
         }
 
 
@@ -107,13 +106,13 @@
         SECTIONS
         ========================= */
 
-        section
+        section 
         {
 
             margin-bottom: 25px;
             padding-bottom: 25px;
             border-bottom: 1px solid #ddd;
-        
+
         }
 
         section:last-child
@@ -122,7 +121,7 @@
             margin-bottom: 0;
             padding-bottom: 0;
             border-bottom: none;
-        
+
         }
 
         section h2
@@ -131,7 +130,7 @@
             font-size: 25px;
             color: #3515a5;
             margin-bottom: 12px;
-        
+
         }
 
         section p
@@ -140,7 +139,7 @@
             font-size: 17px;
             line-height: 1.7;
             color: #444;
-        
+
         }
 
 
@@ -148,7 +147,7 @@
         LISTS / SKILLS
         ========================= */
 
-        .skills
+        .skill
         {
 
             list-style: none;
@@ -169,15 +168,15 @@
             border-radius: 25px;
             font-size: 15px;
             transition: 0.3s;
-        
+
         }
 
-        .skill:hover
+        .skill:hover 
         {
 
             transform: translateY(-3px);
             background-color: #000;
-        
+
         }
 
 
@@ -185,14 +184,14 @@
         FOOTER
         ========================= */
 
-        footer
+        footer 
         {
 
             width: 100%;
             text-align: center;
             padding: 30px 20px;
             margin-top: auto;
-        
+
         }
 
         footer p
@@ -200,7 +199,7 @@
 
             margin-bottom: 12px;
             font-size: 16px;
-        
+
         }
 
 
@@ -208,14 +207,14 @@
         SOCIAL MEDIA
         ========================= */
 
-        .social-icons
+        .social-icons 
         {
 
             margin: 15px 0 20px;
-        
+
         }
 
-        .social-icons a
+        .social-icons a 
         {
 
             display: inline-block;
@@ -227,11 +226,108 @@
 
         }
 
-        .social-icons a:hover
+        .social-icons a:hover 
         {
 
             color: #000;
             transform: translateY(-4px);
+
+        }
+
+
+        /* =========================
+        CONTACT SECTION
+        ========================= */
+
+        #contact 
+        {
+
+            margin-top: 10px;
+        
+        }
+
+        #contact h2
+        {
+
+            margin-bottom: 20px;
+        
+        }
+
+        #contact form
+        {
+
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            text-align: left;
+        
+        }
+
+        #contact label
+        {
+
+            font-size: 16px;
+            font-weight: bold;
+            color: #3515a5;
+            margin-bottom: 6px;
+        
+        }
+
+        #contact input,
+        #contact textarea
+        {
+
+            width: 100%;
+            padding: 12px 14px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-family: Georgia, serif;
+            font-size: 16px;
+            color: #222;
+            background-color: #fff;
+            outline: none;
+            transition: 0.3s;
+        
+        }
+
+        #contact input:focus,
+        #contact textarea:focus
+        {
+
+            border-color: #3515a5;
+            box-shadow: 0 0 6px rgba(53, 21, 165, 0.2);
+        
+        }
+
+        #contact textarea
+        {
+
+            resize: vertical;
+            min-height: 120px;
+
+        }
+
+        #contact button 
+        {
+
+            align-self: center;
+            padding: 11px 24px;
+            border: none;
+            border-radius: 25px;
+            background-color: #3515a5;
+            color: white;
+            font-family: Georgia, serif;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        
+        }
+
+        #contact button:hover
+        {
+
+            background-color: #000;
+            transform: translateY(-3px);
         
         }
 
@@ -243,66 +339,65 @@
         @media (max-width: 600px)
         {
 
-            header 
+            header
             {
 
                 padding-top: 30px;
-            
+
             }
 
-            header h1
+            header h1 
             {
 
                 font-size: 30px;
-            
+
             }
 
-            header p
+            header p 
             {
 
                 font-size: 17px;
-            
+
             }
 
-            main
+            main 
             {
 
                 width: 92%;
                 padding: 25px 20px;
-            
+
             }
 
-            section h2
+            section h2 
             {
 
                 font-size: 22px;
-            
+
             }
 
-            section p
+            section p 
             {
 
                 font-size: 16px;
-            
+
             }
 
-            .skill
+            .skill 
             {
 
                 font-size: 14px;
                 padding: 8px 13px;
-            
+
             }
 
-            .social-icons a
+            .social-icons a 
             {
 
                 font-size: 22px;
                 margin: 0 7px;
-            
+
             }
         }
-
     </style>
 
 </head>
@@ -360,7 +455,6 @@
                 <li class="skill">JavaScript</li>
                 <li class="skill">Machine Learning</li>
 
-
             </ul>
 
         </section>
@@ -386,7 +480,6 @@
 
         </section>
 
-
     </main>
 
     <!-- =========================
@@ -394,6 +487,33 @@
     ========================= -->
 
     <footer>
+
+        <section id="contact">
+
+            <h2>Contact Me</h2>
+
+            <form action="contactdata.txt" method="post">
+
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <br><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+
+                <br><br>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+
+        </section>
 
         <p>
             Connect with me on social media:
@@ -403,25 +523,29 @@
 
             <!-- Facebook -->
 
-            <a href="https://www.facebook.com/vinayak.mishra.98892"target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <a href="https://www.facebook.com/vinayak.mishra.98892" target="_blank" rel="noopener noreferrer"
+                aria-label="Facebook">
                 <i class="fa-brands fa-facebook"></i>
             </a>
 
             <!-- Instagram -->
 
-            <a href="https://www.instagram.com/vinayak_mishra4/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <a href="https://www.instagram.com/vinayak_mishra4/" target="_blank" rel="noopener noreferrer"
+                aria-label="Instagram">
                 <i class="fa-brands fa-instagram"></i>
             </a>
 
             <!-- LinkedIn -->
 
-            <a href="https://www.linkedin.com/in/vinayak-mishra-93003b1b3/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/vinayak-mishra-93003b1b3/" target="_blank" rel="noopener noreferrer"
+                aria-label="LinkedIn">
                 <i class="fa-brands fa-linkedin"></i>
             </a>
 
             <!-- GitHub -->
 
-            <a href="https://github.com/vinayakmishra4" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <a href="https://github.com/vinayakmishra4" target="_blank" rel="noopener noreferrer"
+                aria-label="GitHub">
                 <i class="fa-brands fa-github"></i>
             </a>
 
