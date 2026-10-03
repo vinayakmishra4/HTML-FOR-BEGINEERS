@@ -40,10 +40,11 @@ Follow the modules in order — each one builds on the last.
 
 ```mermaid
 flowchart LR
-    A["📘 Module 1<br/>Introduction to HTML"] --> B["🏷️ Module 2<br/>Basic Tags"] --> C["🧱 Module 3<br/>HTML Layout"]
+    A["📘 Module 1<br/>Introduction to HTML"] --> B["🏷️ Module 2<br/>Basic Tags"] --> C["🧱 Module 3<br/>HTML Layout"] --> D["📝 Module 4<br/>Lists, Tables, Forms & Video"]
     style A fill:#E34F26,stroke:#E34F26,color:#ffffff
     style B fill:#F06529,stroke:#F06529,color:#ffffff
     style C fill:#F7931E,stroke:#F7931E,color:#ffffff
+    style D fill:#8B5CF6,stroke:#8B5CF6,color:#ffffff
 ```
 
 ### 📘 Module 1 · Introduction to HTML
@@ -65,7 +66,6 @@ flowchart LR
 - 🔠 Headings and paragraphs
 - 📝 Text formatting
 - 🔗 Links and 🖼️ images
-- 📋 Lists
 
 [![Open Module 2](https://img.shields.io/badge/Open-Module_2-F06529?style=for-the-badge)](https://github.com/vinayakmishra4/HTML-FOR-BEGINEERS/tree/main/Basic-tag)
 
@@ -77,6 +77,17 @@ flowchart LR
 - 📐 Structuring a full page from top to bottom
 
 [![Open Module 3](https://img.shields.io/badge/Open-Module_3-F7931E?style=for-the-badge)](https://github.com/vinayakmishra4/HTML-FOR-BEGINEERS/tree/main/Html-layout)
+
+### 📝 Module 4 · Lists, Tables, Forms & Video
+
+> *Four everyday building blocks — organize content, show data, collect input, and embed media.*
+
+- 📝 Lists — ordered, unordered, and definition lists
+- 📊 Tables — a styled students table with caption, header, and body
+- 🧾 Forms — a full registration form with ten different input controls
+- 🎬 Video — embedding and controlling a local video with `<video>`
+
+[![Open Module 4](https://img.shields.io/badge/Open-Module_4-8B5CF6?style=for-the-badge)](https://github.com/vinayakmishra4/HTML-FOR-BEGINEERS/tree/main/list-forms-table)
 
 > 🚧 **More modules are on the way!** Star the repo to follow along as new topics are added.
 
@@ -138,6 +149,7 @@ HTML-FOR-BEGINEERS/
 ├── Introdution-to-html/          # Module 1 · Introduction to HTML
 ├── Basic-tag/                    # Module 2 · Basic Tags
 ├── Html-layout/                  # Module 3 · HTML Layout
+├── list-forms-table/             # Module 4 · Lists, Tables, Forms & Video
 ├── index.html                    # Home page
 ├── top-view-blue-decorative-frame.jpg
 └── README.md                     # You are here 📍
