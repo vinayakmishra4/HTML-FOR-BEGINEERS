@@ -17,7 +17,7 @@
 
 <br />
 
-[📖 About](#-about) &nbsp;•&nbsp; [🧩 Modules](#-modules) &nbsp;•&nbsp; [🚀 Get Started](#-getting-started) &nbsp;•&nbsp; [📁 Structure](#-project-structure) &nbsp;•&nbsp; [📚 Resources](#-resources) &nbsp;•&nbsp; [🤝 Contribute](#-contributing)
+[📖 About](#-about) &nbsp;•&nbsp; [🧩 Modules](#-modules) &nbsp;•&nbsp; [🛠️ Project](#-practice-project) &nbsp;•&nbsp; [🚀 Get Started](#-getting-started) &nbsp;•&nbsp; [📁 Structure](#-project-structure) &nbsp;•&nbsp; [📚 Resources](#-resources) &nbsp;•&nbsp; [🤝 Contribute](#-contributing)
 
 </div>
 
@@ -79,6 +79,21 @@ flowchart LR
 [![Open Module 3](https://img.shields.io/badge/Open-Module_3-F7931E?style=for-the-badge)](https://github.com/vinayakmishra4/HTML-FOR-BEGINEERS/tree/main/Html-layout)
 
 > 🚧 **More modules are on the way!** Star the repo to follow along as new topics are added.
+
+## 🛠️ Practice Project
+
+Once you've worked through the modules, here's the skills put into a real build.
+
+### 🍽️ Zomato Clone
+
+> *A front-end clone of the Zomato food-delivery website, built with HTML, CSS, and JavaScript.*
+
+- 🏗️ Full page structure built from scratch with HTML
+- 🎨 Styled with custom CSS
+- ⚡ Interactivity added with JavaScript
+- 🖼️ Real image assets for a polished, realistic look
+
+[![Open Project](https://img.shields.io/badge/Open-Zomato_Clone-E23744?style=for-the-badge)](https://github.com/vinayakmishra4/ZOMATO-CLONE) [![MIT License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](https://github.com/vinayakmishra4/ZOMATO-CLONE/blob/main/LICENSE)
 
 ## 🚀 Getting Started
 
