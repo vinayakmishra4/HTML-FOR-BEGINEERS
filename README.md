@@ -17,7 +17,7 @@
 
 <br />
 
-[📖 About](#-about) &nbsp;•&nbsp; [🧩 Modules](#-modules) &nbsp;•&nbsp; [🛠️ Project](#-practice-project) &nbsp;•&nbsp; [🚀 Get Started](#-getting-started) &nbsp;•&nbsp; [📁 Structure](#-project-structure) &nbsp;•&nbsp; [📚 Resources](#-resources) &nbsp;•&nbsp; [🤝 Contribute](#-contributing)
+[📖 About](#-about) &nbsp;•&nbsp; [🧩 Modules](#-modules) &nbsp;•&nbsp; [🛠️ Projects](#-practice-projects) &nbsp;•&nbsp; [🚀 Get Started](#-getting-started) &nbsp;•&nbsp; [📁 Structure](#-project-structure) &nbsp;•&nbsp; [📚 Resources](#-resources) &nbsp;•&nbsp; [🤝 Contribute](#-contributing)
 
 </div>
 
@@ -104,9 +104,9 @@ flowchart LR
 
 > 🎉 **That's the full roadmap — Introduction → Basic Tags → Layout → Lists/Tables/Forms/Video → SEO.** Star the repo if it helped you learn!
 
-## 🛠️ Practice Project
+## 🛠️ Practice Projects
 
-Once you've worked through the modules, here's the skills put into a real build.
+Once you've worked through the modules, here's the skills put into real builds.
 
 ### 🍽️ Zomato Clone
 
@@ -118,6 +118,17 @@ Once you've worked through the modules, here's the skills put into a real build.
 - 🖼️ Real image assets for a polished, realistic look
 
 [![Open Project](https://img.shields.io/badge/Open-Zomato_Clone-E23744?style=for-the-badge)](https://github.com/vinayakmishra4/ZOMATO-CLONE) [![MIT License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](https://github.com/vinayakmishra4/ZOMATO-CLONE/blob/main/LICENSE)
+
+### 🧑‍💻 Data Science Portfolio
+
+> *A fast, dependency-free personal portfolio site with a live k-means clustering plot in the hero.*
+
+- 📊 A live k-means clustering animation on load, with a "Run again" button
+- 🌗 Light and dark themes that follow the visitor's system setting
+- 📱 Fully responsive, with a collapsing mobile nav
+- ⚡ Zero dependencies — just HTML, CSS, and JavaScript, no build step
+
+[![Open Project](https://img.shields.io/badge/Open-Portfolio-139A74?style=for-the-badge)](https://github.com/vinayakmishra4/My-Protfilo)
 
 ## 🚀 Getting Started
 
