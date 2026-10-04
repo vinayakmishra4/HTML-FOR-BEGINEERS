@@ -40,11 +40,12 @@ Follow the modules in order — each one builds on the last.
 
 ```mermaid
 flowchart LR
-    A["📘 Module 1<br/>Introduction to HTML"] --> B["🏷️ Module 2<br/>Basic Tags"] --> C["🧱 Module 3<br/>HTML Layout"] --> D["📝 Module 4<br/>Lists, Tables, Forms & Video"]
+    A["📘 Module 1<br/>Introduction to HTML"] --> B["🏷️ Module 2<br/>Basic Tags"] --> C["🧱 Module 3<br/>HTML Layout"] --> D["📝 Module 4<br/>Lists, Tables, Forms & Video"] --> E["🚀 Module 5<br/>SEO in HTML"]
     style A fill:#E34F26,stroke:#E34F26,color:#ffffff
     style B fill:#F06529,stroke:#F06529,color:#ffffff
     style C fill:#F7931E,stroke:#F7931E,color:#ffffff
     style D fill:#8B5CF6,stroke:#8B5CF6,color:#ffffff
+    style E fill:#10B981,stroke:#10B981,color:#ffffff
 ```
 
 ### 📘 Module 1 · Introduction to HTML
@@ -89,7 +90,19 @@ flowchart LR
 
 [![Open Module 4](https://img.shields.io/badge/Open-Module_4-8B5CF6?style=for-the-badge)](https://github.com/vinayakmishra4/HTML-FOR-BEGINEERS/tree/main/list-forms-table)
 
-> 🚧 **More modules are on the way!** Star the repo to follow along as new topics are added.
+### 🚀 Module 5 · SEO in HTML
+
+> *The final module — learn how good HTML helps a website actually get found.*
+
+- 🔍 What SEO is, and why `<title>`, `<meta>`, headings, and `<alt>` text matter
+- 🧩 The main types of SEO — On-Page, Technical, Off-Page, Local, Content, Mobile, and more
+- 🏗️ The semantic HTML elements search engines look for, from `<nav>` to `<article>`
+- 🟢 White Hat vs 🔴 Black Hat techniques, and why sustainable SEO wins long-term
+- 🧠 A quick-revision cheat sheet tying HTML structure back to search rankings
+
+[![Open Module 5](https://img.shields.io/badge/Open-Module_5-10B981?style=for-the-badge)](https://github.com/vinayakmishra4/HTML-FOR-BEGINEERS/tree/main/SEO)
+
+> 🎉 **That's the full roadmap — Introduction → Basic Tags → Layout → Lists/Tables/Forms/Video → SEO.** Star the repo if it helped you learn!
 
 ## 🛠️ Practice Project
 
@@ -150,6 +163,7 @@ HTML-FOR-BEGINEERS/
 ├── Basic-tag/                    # Module 2 · Basic Tags
 ├── Html-layout/                  # Module 3 · HTML Layout
 ├── list-forms-table/             # Module 4 · Lists, Tables, Forms & Video
+├── SEO/                          # Module 5 · SEO in HTML
 ├── index.html                    # Home page
 ├── top-view-blue-decorative-frame.jpg
 └── README.md                     # You are here 📍
