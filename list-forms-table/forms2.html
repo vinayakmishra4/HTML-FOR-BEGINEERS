@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Nexus Registration</title>
+</head>
+
+<body>
+
+    <div class="form-container">
+
+        <form action="save.php" method="post">
+
+            <div class="logo">N</div>
+
+            <h1>DARK NEXUS</h1>
+
+            <div class="subtitle">
+                CREATE YOUR DIGITAL IDENTITY
+            </div>
+
+            <!-- Name -->
+            <div class="field">
+                <label for="name">Name</label>
+                <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    placeholder="Enter your name"
+                    required
+                >
+            </div>
+
+            <!-- Phone -->
+            <div class="field">
+                <label for="phone">Phone</label>
+                <input
+                    id="phone"
+                    name="phone"
+                    type="tel"
+                    placeholder="Enter your phone number"
+                    required
+                >
+            </div>
+
+            <!-- Email -->
+            <div class="field">
+                <label for="email">Email</label>
+                <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="Enter your email"
+                    required
+                >
+            </div>
+
+            <!-- Password -->
+            <div class="field">
+                <label for="password">Password</label>
+                <input
+                    id="password"
+                    name="password"
+                    type="password"
+                    placeholder="Create a password"
+                    required
+                >
+            </div>
+
+            <!-- Date of Birth -->
+            <div class="field">
+                <label for="dob">Date of Birth</label>
+                <input
+                    id="dob"
+                    name="dob"
+                    type="date"
+                    required
+                >
+            </div>
+
+            <!-- Gender -->
+            <div class="field">
+                <label for="gender">Gender</label>
+
+                <select id="gender" name="gender" required>
+                    <option value="" disabled selected>
+                        Select gender
+                    </option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <!-- Subscription -->
+            <div class="field">
+
+                <div class="plan-title">
+                    Subscription Plan
+                </div>
+
+                <div class="plans">
+
+                    <input
+                        id="basic"
+                        type="radio"
+                        name="subscription"
+                        value="basic"
+                        required
+                    >
+                    <label for="basic">Basic</label>
+
+                    <input
+                        id="premium"
+                        type="radio"
+                        name="subscription"
+                        value="premium"
+                    >
+                    <label for="premium">Premium</label>
+
+                    <input
+                        id="vip"
+                        type="radio"
+                        name="subscription"
+                        value="vip"
+                    >
+                    <label for="vip">VIP</label>
+
+                </div>
+
+            </div>
+
+            <!-- Message -->
+            <div class="field">
+
+                <label for="comments">Message</label>
+
+                <textarea
+                    id="comments"
+                    name="comments"
+                    placeholder="Tell us something..."
+                    rows="4"
+                ></textarea>
+
+            </div>
+
+            <!-- Terms and Conditions -->
+            <div class="terms">
+
+                <input
+                    id="terms"
+                    name="terms"
+                    type="checkbox"
+                    required
+                >
+
+                <label for="terms">
+                    I agree to the terms and conditions
+                </label>
+
+            </div>
+
+            <!-- Submit -->
+            <button type="submit">
+                ENTER THE NEXUS
+            </button>
+
+            <div class="footer">
+                SECURE REGISTRATION • DARK NEXUS
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
